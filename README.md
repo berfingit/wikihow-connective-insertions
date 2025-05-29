@@ -14,8 +14,7 @@ The dataset consists of two components:
 
 ### 1. WikiHow Connective Insertions
 
-This part includes revisions in which a **discourse connective** (e.g., *"However"*, *"As a result"*) has been inserted at the beginning of a sentence. These insertions often make implicit relationships in the text more explicit and serve as clarifications or improvements for coherence.
-
+This part includes revisions in which a **discourse connective** (e.g., "However", "As a result") has been inserted at the beginning of a sentence, without any other changes between the original and revised versions. These insertions help make previously implicit discourse relations explicit, serving as clarifications or coherence improvements.
 
 ### 2. Crowdsourced Annotations
 
