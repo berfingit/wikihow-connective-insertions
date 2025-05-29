@@ -4,11 +4,11 @@ A dataset of **connective insertions** observed in the revision history of instr
 
 ---
 
-## 📄 Data Description
+##  Data Description
 
 This dataset is based on the revision histories of WikiHow articles, extracted from the [wikiHowToImprove dataset](https://github.com/irshadbhat/wikiHowToImprove). WikiHow is a collaboratively edited platform offering step-by-step guides for everyday tasks, and each article contains a rich revision history created by various contributors.
 
-👉 **We use the same train/dev/test split as in the original `wikiHowToImprove` dataset**, for consistency and comparability.
+**We use the same train/dev/test split as in the original `wikiHowToImprove` dataset**.
 
 The dataset consists of two components:
 
@@ -23,6 +23,7 @@ This part includes **human judgments** collected via crowdsourcing on a selectio
 
 For each development and test split, the following TSV file is provided:
 
+{split}_crowdsourced_annotations.tsv
 
 Each file contains the following columns:
 
@@ -31,18 +32,18 @@ Each file contains the following columns:
 - `Input.ContextAfter`: Text immediately following the connective  
 - `Input.Selected_Connectives`: The connective inserted  
 - `Input.Sent`: The full sentence after revision  
-- `Input.ID`: Unique identifier for the revision  
+- `Input.ID`: Unique identifier for the instance  
 - `label_aggregated`: Aggregated human plausibility rating  
 
 ---
 
-## 📜 License
+## License
 
 This dataset is distributed under the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License (CC BY-NC-SA 3.0)](https://creativecommons.org/licenses/by-nc-sa/3.0/), in accordance with the licensing of the original WikiHow content.
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you have any questions about this dataset, feel free to contact:
 
@@ -50,7 +51,7 @@ If you have any questions about this dataset, feel free to contact:
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this dataset in your research, please cite the following paper:
 
