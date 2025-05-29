@@ -16,11 +16,28 @@ The dataset consists of two components:
 
 This part includes revisions in which a **discourse connective** (e.g., "However", "As a result") has been inserted at the beginning of a sentence, without any other changes between the original and revised versions. These insertions help make previously implicit discourse relations explicit, serving as clarifications or coherence improvements.
 
+For each data split (i.e., **train**, **dev**, and **test**), the following TSV file is provided:
+
+insert_connective_begin_{split}_with_context.tsv
+
+Each file contains the following columns:
+
+- `Article.Filename`: Name of the WikiHow article file  
+- `Article.Original-section`: Section where the original sentence appears  
+- `Sentence.Original`: The sentence before the revision  
+- `Article.Revision-section`: Section where the revised sentence appears  
+- `Sentence.Revision`: The sentence after the connective was inserted  
+- `Sentence.Edits`: Type of edits made (in this case, insertion)  
+- `Sentence.Context-before`: Text that precedes the revision  
+- `Sentence.Context-after`: Sentence that follows the revision  
+
+
+
 ### 2. Crowdsourced Annotations
 
 This part includes **human judgments** collected via crowdsourcing on a selection of the connective insertions. Each revision was evaluated for **plausibility** in its context.
 
-For each development and test split, the following TSV file is provided:
+For development and test splits, the following TSV file is provided:
 
 {split}_crowdsourced_annotations.tsv
 
