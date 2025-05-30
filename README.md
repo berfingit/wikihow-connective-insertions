@@ -1,4 +1,4 @@
-# wikihow-connective-insertions
+# MisDR dataset
 
 A dataset of **connective insertions** observed in the revision history of instructional texts from WikiHow.
 
