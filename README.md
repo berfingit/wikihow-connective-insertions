@@ -71,6 +71,6 @@ If you have any questions about this dataset, feel free to contact:
 
 If you use this dataset in your research, please cite the following paper:
 
-> **Berfin Aktaş and Michael Roth.** 2025. *Clarifying Underspecified Discourse Relations in Instructional Texts*. Findings of the Association for Computational Linguistics: ACL 2025. Association for Computational Linguistics, Vienna, Austria. *(To appear)*
+> **Berfin Aktaş and Michael Roth.** 2025. *Clarifying Underspecified Discourse Relations in Instructional Texts*. Findings of the Association for Computational Linguistics: ACL 2025. Association for Computational Linguistics, Vienna, Austria.
 
 
